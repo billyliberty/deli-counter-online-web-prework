@@ -3,7 +3,7 @@ def line(place_in_line)
   if place_in_line.length == 0
     puts "The line is currently empty."
   else
-    line_array.each.with_index(0) do |name, index|
+    line_array.each.with_index(1) do |name, index|
       line_array.push("#{index}. #{name}")
     end
     puts "The line is: #{line_array.join ("")}"
