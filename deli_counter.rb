@@ -3,12 +3,11 @@ def line(place_in_line)
   if
    place_in_line.each.with_index(1) do |name, index|
      line_array.push("#{index}. #{name}")
-   end
    puts "The line is currently: #{line_array.join(" ")}"
-  end
- else
+  else
    if place_in_line.length == 0
    puts "The line is currently empty."
+ end
 end
 
 def take_a_number(katz_deli, name)
