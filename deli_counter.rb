@@ -1,6 +1,8 @@
 def line(place_in_line)
   if place_in_line.length == 0
     puts "The line is currently empty."
+  else
+    
   end
 
 end
@@ -14,7 +16,6 @@ def now_serving(number_in_line)
   if number_in_line.length == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{number_in_line[0]}."
-    number_in_line.shift
+    puts "Currently serving #{number_in_line.shift}."
   end
 end
