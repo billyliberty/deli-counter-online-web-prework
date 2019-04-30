@@ -1,12 +1,11 @@
 def line(place_in_line)
   line_array = []
-  if
+  if place_in_line.length == 0
+    puts "The line is currently empty"
+  else
    place_in_line.each.with_index(1) do |name, index|
      line_array.push("#{index}. #{name}")
    puts "The line is currently: #{line_array.join(" ")}"
-  else
-   if place_in_line.length == 0
-   puts "The line is currently empty."
  end
 end
 
