@@ -5,6 +5,7 @@ def line(place_in_line)
   else
    place_in_line.each.with_index(1) do |name, index|
      line_array.push("#{index}. #{name}")
+   end
    puts "The line is currently: #{line_array.join(" ")}"
  end
 end
