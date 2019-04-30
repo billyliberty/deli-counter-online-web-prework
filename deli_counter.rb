@@ -5,7 +5,9 @@ def line(place_in_line)
   end
 end
 
-def take_a_number
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome #{name}. You are #{katz_deli.length} in line."
 end
 
 def now_serving
