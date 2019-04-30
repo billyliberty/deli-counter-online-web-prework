@@ -5,7 +5,7 @@ def line(place_in_line)
   end
   else notice = "The line is currently:"
     place_in_line.each_with_index do |name, index|
-    notice += " #{index+1}. #{name}" 
+    notice += " #{index+1}. #{name}"
   end
     puts notice
   end
